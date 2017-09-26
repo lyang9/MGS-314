@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>AirService - Airline Survey</title>
+<body>
+	<a href="ShowPastResults.php"><input type="button" value="Past survey results"/></a>
+	<br/>
+	<br/>
+	<h1>Airline Survey</h1>
+	<form action="SurveyForm.php" method="post"> 
+		<table width="700" border="0"> 
+		<tr> 
+				<td>Flight number: </td> 
+				<td><input type="text" name="flightnum" value="" id="flightnum"/></td> 
+		</tr> 
+		<tr> 
+				<td>Date: </td> 
+				<td><input type="text" name="date" placeholder="2015-12-07" id="date"/></td> 
+		</tr> 
+		<tr> 
+				<td>Time: </td> 
+				<td><input type="text" name="time" placeholder="15:30" id="time"/></td> 
+		</tr> 
+		<tr> 
+			<td>Friendliness of customer staff:</td> 
+			<td><input type="radio" name="friendliness" value="No opinion"> No opinion
+				<input type="radio" name="friendliness" value="Poor"> Poor 
+				<input type="radio" name="friendliness" value="Fair"> Fair
+				<input type="radio" name="friendliness" value="Good"> Good 
+				<input type="radio" name="friendliness" value="Excellent"> Excellent 
+			</td> 
+		</tr> 
+		<tr> 
+			<td>Space for luggage storage:</td> 
+			<td><input type="radio" name="storage" value="No opinion"> No opinion
+				<input type="radio" name="storage" value="Poor"> Poor 
+				<input type="radio" name="storage" value="Fair"> Fair
+				<input type="radio" name="storage" value="Good"> Good 
+				<input type="radio" name="storage" value="Excellent"> Excellent </td> 
+			</tr> 
+			<tr> 
+				<td>Comfort of seating:</td> 
+				<td><input type="radio" name="seating" value="No opinion"> No opinion
+					<input type="radio" name="seating" value="Poor"> Poor 
+					<input type="radio" name="seating" value="Fair"> Fair
+					<input type="radio" name="seating" value="Good"> Good 
+					<input type="radio" name="seating" value="Excellent"> Excellent 
+				</td> 
+			</tr> 
+			<tr> 
+				<td>Cleaness of aircraft:</td> 
+				<td><input type="radio" name="cleaness" value="No opinion"> No opinion
+					<input type="radio" name="cleaness" value="Poor"> Poor 
+					<input type="radio" name="cleaness" value="Fair"> Fair
+					<input type="radio" name="cleaness" value="Good"> Good 
+					<input type="radio" name="cleaness" value="Excellent"> Excellent 
+				</td> 
+			</tr> 
+			<tr> 
+				<td>Noise level of aircraft:</td> 
+				<td><input type="radio" name="noise" value="No opinion"> No opinion
+					<input type="radio" name="noise" value="Poor"> Poor 
+					<input type="radio" name="noise" value="Fair"> Fair
+					<input type="radio" name="noise" value="Good"> Good 
+					<input type="radio" name="noise" value="Excellent"> Excellent 
+				</td> 
+			</tr>  
+			<tr> 
+				<td valign="top"> </td> 
+				<td><input type="submit" name="svy_submit" value="Submit"/>
+				</td> 
+			</tr> 
+		</table> 
+	</form> 
+</body>
+</html>
